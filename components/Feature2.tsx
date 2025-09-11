@@ -1,9 +1,8 @@
-
+import Flens from "../components/Cloudinary/flens";
+import WineIcon from "../components/Cloudinary/weinIcon";
 import Image from "next/image";
 
-
-
-export default function Home() {
+export default function Features() {
   return (
     
     <>
@@ -20,7 +19,10 @@ export default function Home() {
           <h2 className="uppercase font-black text-white">Flens vom Fass</h2>
           <p className="card-p">Flensburger Pils - das kühle Blonde von der Waterkant. Astra-Pils - das Kultbier natürlich direkt vom Kiez !</p>
           <div className="card-Image-container">
-            <Image className="card-Image" src="/Bierglas99.svg" width={200} height={200} alt="Supervisor Icon" />
+           {/* <Image className="card-Image" src="/Flens.png" width={300} height={300} alt="Supervisor Icon" />*/}
+           <div className="p-3 card-Image">
+           <Flens/>
+           </div>
           </div>
         </div>
       </div>
@@ -31,11 +33,14 @@ export default function Home() {
             <h2 className="uppercase text-white font-black">regionale Weine</h2>
             <p className="card-p">
              Qualitativ hochwertige Weine aus der Region Kaiserstuhl und dem Markgräflerland. Hauslieferant Weingut Heinemann Scherzingen.</p>
-            <div className="card-Image-container">
-              <Image className="card-Image" src="/weinIcon.svg" width={200} height={200} alt="Team builder Icon"/>
-            </div>
+             <div className="card-Image-container">
+           {/* <Image className="card-Image" src="/Flens.png" width={300} height={300} alt="Supervisor Icon" />*/}
+           <div className="p-3 card-Image">
+           <WineIcon/>
+           </div>
           </div>
         </div>
+      </div>
         <div className="card bg-yellow-500">
           <div className="stripe orange mt"></div>
           <div className="card-content-container bg-yellow-500">
@@ -54,7 +59,7 @@ export default function Home() {
           <p className="card-p"> Jeden Samstag-Spieltag der laufenden Bundesliga-Saison Live TV Event in unserer Sportarena natürlich mit Schwerpunkt unseres SC Freiburgs. Wann immer möglich auch Spiele der Champions League und natürlich der grossen Turniere von EM und WM. Bei Topspielen des SC Freiburg mit grosser Publikumsnachfrage sind Reservierungen über unser Booking-Tool zu empfehlen - Unten folgender Button und Du bist direkt dabei !
             </p>
           <div className="card-Image-container">
-            <Image className="card-Image" src="/FootballIcon.svg" width={200} height={200} alt="Football Icon"/>
+            <Image className="card-Image" src="/Fussball.svg" width={200} height={200} alt="Football Icon"/>
           </div>
         </div>
       </div>
