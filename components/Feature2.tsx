@@ -1,5 +1,6 @@
 import Flens from "../components/Cloudinary/flens";
 import WineIcon from "../components/Cloudinary/weinIcon";
+import CocktailIcon from "../components/Cloudinary/cocktailIcon";
 import Image from "next/image";
 
 export default function Features() {
@@ -46,9 +47,9 @@ export default function Features() {
           <div className="card-content-container bg-yellow-500">
             <h2 className="uppercase text-white font-black">Cocktails und Longdrinks</h2>
             <p className="card-p">Zahlreiche internationale Longdrinks und Cocktaila - alles was das Herz begehrt. Zahlreiche "Kurze" für jeden Geschmack.</p>
-            <div className="card-Image-container">
-              <Image className="card-Image" src="/cocktailIcon.svg" width={200} height={200} alt="Cocktail Icon"/>
-            </div>
+            <div className="p-3 card-Image">
+           <CocktailIcon/>
+           </div>
           </div>
         </div>
       </div>
