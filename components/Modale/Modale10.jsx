@@ -32,15 +32,15 @@ export default function Modale10() {
 <img
   alt="snacks"
   src="flammkuchen.png"
-  className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50"
+  className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50 lg:mt-20"
 />
 
 <div className="relative p-4 sm:p-6 lg:p-8">
-  <p className="text-sm font-medium uppercase tracking-widest text-yellow-600">
-    menue - drinks
+  <p className="text-sm font-medium uppercase tracking-widest text-yellow-600 lg:text-6xl">
+    Snacks
   </p>
 
-  <p className="text-xl font-bold text-white sm:text-3xl">Softdrinks</p>
+  <p className="text-xl font-bold text-white sm:text-3xl lg:text-center lg:text-4xl">Flammkuchen</p>
 
   <div className="mt-32 sm:mt-48 lg:mt-64">
     <div

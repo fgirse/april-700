@@ -36,16 +36,16 @@ export default function Modale07() {
            
 <img
   alt="cocktail"
-  src="cocktail400.png"
-  className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50"
+  src="Cocktailglas300.png"
+  className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50 lg:mt-20"
 />
 
 <div className="relative p-4 sm:p-6 lg:p-8">
-  <p className="text-sm font-medium uppercase tracking-widest text-yellow-600">
-    menue - drinks
+  <p className="text-sm font-medium uppercase tracking-widest lg:text-6xl text-yellow-600">
+    Drinks
   </p>
 
-  <p className="text-xl font-bold text-white sm:text-3xl">Longdrinks</p>
+  <p className="text-xl font-bold text-white sm:text-3xl lg:text-6xl">Longdrinks</p>
 
   <div className="mt-32 sm:mt-48 lg:mt-64">
     <div

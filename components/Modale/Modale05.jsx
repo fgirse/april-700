@@ -44,15 +44,15 @@ export default function Modale05 () {
   <img
     alt="biere"
     src="astra-remove.png"
-    className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50"
+    className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50 lg:mt-20"
   />
 
   <div className="relative p-4 sm:p-6 lg:p-8">
-    <p className="text-sm font-medium uppercase tracking-widest text-yellow-600">
-      menue - drinks
+    <p className="text-sm font-medium uppercase tracking-widest text-yellow-600 lg:text-6xl">
+      drinks
     </p>
 
-    <p className="text-xl font-bold text-white sm:text-3xl">Biere</p>
+    <p className="text-centertext-xl font-bold text-white sm:text-3xl lg:text-6xl">Biere</p>
 
     <div className="mt-32 sm:mt-48 lg:mt-64">
       <div

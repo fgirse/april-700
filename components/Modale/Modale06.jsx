@@ -40,21 +40,21 @@ export default function Modale06 () {
   <img
     alt="weine"
     src="Bottles.png"
-    className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50"
+    className="absolute inset-0 h-full w-full object-contain opacity-75 transition-opacity group-hover:opacity-50 lg:mt-20"
   />
 
   <div className="relative p-4 sm:p-6 lg:p-8">
-    <p className="text-sm font-medium uppercase tracking-widest text-yellow-600">
-      menue - drinks
+    <p className="text-sm font-medium uppercase tracking-widest text-yellow-600 lg:text-6xl">
+      Drinks
     </p>
 
-    <p className="text-xl font-bold text-white sm:text-3xl">Weine</p>
+    <p className="text-xl font-bold text-white sm:text-3xl lg:text-6xl ">Weine</p>
 
     <div className="mt-32 sm:mt-48 lg:mt-64">
       <div
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
-        <p className="bg-yellow-600 rounded-2xl text-xl text-center text-white">
+        <p className="bg-yellow-600 rounded-2xl text-xl text-center text-white ">
           click mich!!!
         </p>
       </div>
