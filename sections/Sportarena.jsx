@@ -22,7 +22,7 @@ const SportArena = () => (
         className="flex-[1] flex justify-center flex-col"
       >
         <TypingText title="| Sportarena" />
-        <h1 className='headingA text-yellow-500 text-[2.33rem]'>Sportarena</h1> 
+        <h1 className='headingA text-yellow-500 text-[2.33rem] lg:text-9xl'>Sportarena</h1> 
         <div className="mt-[48px] flex flex-wrap items-center justify-between md:flex md:flex-row gap-[24px]">
           <div >
             <Modale15/>

@@ -83,7 +83,7 @@ export default function Modale15() {
                         Hier findest Du alle Daten, Fakten über den aktuellen
                         Tabellenstand des SC Freiburgs.{" "}
                       </h2>
-                      <article className="flex flex-col items-center low-hidden mb-2 h-full w-[100v]  flex flex-col justify-center items-center ">
+                      <article className="flex flex-col items-center low-hidden mb-2 h-full w-[100v] justify-center ">
                         <GetDataSCF className=""></GetDataSCF>
                       </article>
                     </section>

@@ -3814,6 +3814,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"class-variance-authority@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "class-variance-authority@npm:0.7.1"
+  dependencies:
+    clsx: "npm:^2.1.1"
+  checksum: 10c0/0f438cea22131808b99272de0fa933c2532d5659773bfec0c583de7b3f038378996d3350683426b8e9c74a6286699382106d71fbec52f0dd5fbb191792cccb5b
+  languageName: node
+  linkType: hard
+
 "classnames@npm:^2.2.5":
   version: 2.5.1
   resolution: "classnames@npm:2.5.1"
@@ -3839,6 +3848,13 @@ __metadata:
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: 10c0/34dead8bee24f5e96f6e7937d711978380647e936a22e76380290e35486afd8634966ce300fc4b74a32f3762c7d4c0303f442c3e259f4ce02374eb0c82834f27
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
   languageName: node
   linkType: hard
 
@@ -6097,6 +6113,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:^0.454.0":
+  version: 0.454.0
+  resolution: "lucide-react@npm:0.454.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+  checksum: 10c0/e5eebe542e32f0c2210a702fddbbe6e37b977dc7d8ff991b7fd5e886f96adf2ac4870275b618c79d6b2f611da1bfb8696062c5138b06ee728090309b8e27ca07
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^3.1.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
@@ -6184,6 +6209,7 @@ __metadata:
     autoprefixer: "npm:^10.4.13"
     axios: "npm:^1.4.0"
     bcrypt: "npm:^5.1.0"
+    class-variance-authority: "npm:^0.7.1"
     date-fns: "npm:^2.29.3"
     dotenv: "npm:^16.0.3"
     eslint: "npm:8.28.0"
@@ -6194,6 +6220,7 @@ __metadata:
     leaflet: "npm:^1.9.3"
     leaflet-defaulticon-compatibility: "npm:^0.1.1"
     leaflet-geosearch: "npm:^3.7.0"
+    lucide-react: "npm:^0.454.0"
     mongodb: "npm:^5.1.0"
     mongoose: "npm:^6.10.0"
     next: "npm:13.0.5"
@@ -6209,6 +6236,7 @@ __metadata:
     react-leaflet: "npm:^4.2.0"
     react-responsive-carousel: "npm:^3.2.23"
     sass: "npm:^1.62.0"
+    tailwind-merge: "npm:^3.3.1"
     tailwindcss: "npm:^3.2.4"
     tw-elements: "npm:^1.0.0-beta2"
     typescript: "npm:4.9.5"
@@ -8264,6 +8292,13 @@ __metadata:
   version: 3.2.0
   resolution: "svg-arc-to-cubic-bezier@npm:3.2.0"
   checksum: 10c0/6dddbaff9defa55a891593b48ba6bd5f1b3c89d747cf818a8342ec4cac10b06de6cd37478dc9483cba5e8d1a7d3dac2d0bbab47858d207a2d1a6a61b5acdd442
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "tailwind-merge@npm:3.3.1"
+  checksum: 10c0/b84c6a78d4669fa12bf5ab8f0cdc4400a3ce0a7c006511af4af4be70bb664a27466dbe13ee9e3b31f50ddf6c51d380e8192ce0ec9effce23ca729d71a9f63818
   languageName: node
   linkType: hard
 
